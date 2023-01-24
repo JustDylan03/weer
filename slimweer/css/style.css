@@ -1,0 +1,120 @@
+*{
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+.logo{
+    font-size: 36px;
+    font-family: 'Roboto Condensed';
+    src: url('../fonts/RobotoCondensed-Regular.woff2') format('woff2'),
+        url('../fonts/RobotoCondensed-Regular.woff') format('woff');
+    display: flex;
+    align-items: center;
+}
+
+.background{
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background header{
+    background-color: #AB360F;
+}
+
+nav{
+    color: #D9E2FF;
+    font-size: 18px;
+    font-family: 'Roboto Medium';
+    src: url('../fonts/Roboto-Medium.woff2') format('woff2'),
+        url('../fonts/Roboto-Medium.woff') format('woff');
+    
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.SlimWeerVak{
+    width: 1080px;
+    background-color: #E16941;
+    
+}
+
+.overslimweertitel{
+    font-weight: bold;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.overslimweer{
+    font-size: 24px;
+    color: #D9E2FF;
+}
+
+.slimweervandaag{
+    align-items: center;
+    display: flex;
+    font-size: 24px;
+    font-family: 'Roboto Slab';
+    src: url('../fonts/RobotoSlab-Medium.woff2') format('woff2'),
+        url('../fonts/RobotoSlab-Medium.woff') format('woff');
+    color: #D9E2FF;
+}
+
+.contacttitel{
+    font-weight: bold;
+    font-size: 22px;
+    color: #FFFFFF;
+}
+
+.contactform{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contactinputs label, input{
+    display: block;
+    background: transparent;
+}
+
+.contactinputs input{
+    border: 2px solid white;
+    width: 400px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+label{
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.contactinputs{
+    margin-right: 50px;
+}
+
+textarea{
+    width: 100%;
+    background: transparent;
+    border: 2px solid white;
+}
+
+.sendbutton{
+    background-color:  #AB360F;
+    color: white;
+    padding: 15px 100px;
+    margin-top: 15px;
+    border: none;
+}
